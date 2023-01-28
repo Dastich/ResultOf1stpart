@@ -38,6 +38,6 @@ string[] CreateArrayOfStringWith3OrLessChar(string[] array, int number)
 string[] array = { ":)", "Earth", "человек", "432", "дуб","Io" };
 Console.Write("Исходный массив: ");
 PrintArray(array);
-Console.Write("Массив с 3 и меньше символами: ");
 string[] result=CreateArrayOfStringWith3OrLessChar(array,CollectNumberOfString(array));
+Console.Write("Массив с 3 и меньше символами: ");
 PrintArray(result);
